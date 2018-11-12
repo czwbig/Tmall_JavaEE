@@ -1,0 +1,15 @@
+本j2ee项目的大概处理流程
+
+1，访问地址localhost/foreHome
+
+2，会先后被EncodingFilterFore，AuthFilter处理编码，登录权限过滤
+
+3，再到ForeServletFilter，获取fore后面访问的方法Home，转发请求到ForeServlet
+
+4，请求被ForeServlet父类BaseForeServlet的service()方法处理
+
+5，service()方法中通过反射机制调用对应方法名的ForeServlet方法进行处理请求，并等待方法返回的字符串
+
+6，ForeServlet相应方法完成请求，并返回字符串给上一步的service()方法中
+
+7，service()方法根据字符串进行访问jsp视图或进行跳转，根据跳转路径再次从2开始处理。
