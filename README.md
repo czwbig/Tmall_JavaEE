@@ -16,7 +16,7 @@
  **Java：`Java SE基础`  
  前端： `HTML` ,  `CSS` ,  `JavaScript` ,  `jQuery`  
  J2EE： `Tomcat` ,  `Servlet` ,  `JSP` ,  `Filter`  
-数据库： `MySQL`  
+数据库： `MySQL`**  
 >
 
 ### 表结构
