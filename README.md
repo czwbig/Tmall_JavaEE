@@ -1,15 +1,22 @@
 # Tmall_JavaEE
+
 技术栈 Servlet + Jsp + Tomcat , 是Java Web入门非常好的练手项目
-###项目简介
+
+### 项目简介
+
+`关联项目`  
+**[github - 天猫 JavaEE 项目](https://github.com/czwbig/Tmall_JavaEE)**  
+**[github - 天猫 SSH 项目](https://github.com/czwbig/Tmall_SSH)**  
+**[github - 天猫 SSM 项目](https://github.com/czwbig/Tmall_SSM)**  
+
 本项目为Java EE入门练手项目，没有使用 SSH , SSM 框架，而是使用 JavaEE 整套技术来作为解决方案，实现模仿天猫网站的各种业务场景。 之所以不使用框架，就是为了借助这个项目夯实 JavaEE 基础，并且在项目中借助反射等技术。
-**[github 项目源码地址](https://github.com/czwbig/Tmall_JavaEE)**
 
 
 > 项目用到的技术如下：  
- **Java：`Java SE基础`**  
- **前端： `HTML` ,  `CSS` ,  `JavaScript` ,  `jQuery`**  
- **J2EE： `Tomcat` ,  `Servlet` ,  `JSP` ,  `Filter`**  
-**数据库： `MySQL`**  
+ **Java：`Java SE基础`  
+ 前端： `HTML` ,  `CSS` ,  `JavaScript` ,  `jQuery`  
+ J2EE： `Tomcat` ,  `Servlet` ,  `JSP` ,  `Filter`  
+数据库： `MySQL`  
 >
 
 ### 表结构
