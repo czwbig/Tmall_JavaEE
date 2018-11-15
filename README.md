@@ -1,6 +1,9 @@
 # Tmall_JavaEE
 
-技术栈 Servlet + Jsp + Tomcat , 是Java Web入门非常好的练手项目
+技术栈 Servlet + Jsp + Tomcat , 是Java Web入门非常好的练手项目  
+##### 效果展示：  
+[模仿天猫前台](http://caozhihu.com/tmall)    
+[模仿天猫后台](http://caozhihu.com/tmall/admin_category_list)    
 
 ### 项目简介
 
