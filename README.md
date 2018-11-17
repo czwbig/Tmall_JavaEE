@@ -119,11 +119,15 @@ Servlet -> Service（业务类） -> DAO -> database
 
 ![](https://upload-images.jianshu.io/upload_images/14923529-794a86555266a1e0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-######BaseBackServlet
+###### BaseBackServlet
 [Github-BaseBackServlet 完整代码](https://github.com/czwbig/Tmall_JavaEE/blob/master/src/tmall/servlet/BaseBackServlet.java)
 BaseBackServlet 继承了 HttpServlet 并重写了 service 方法，其核心代码如下：
 
 ![BaseBackServlet .service()](https://upload-images.jianshu.io/upload_images/14923529-e2bf10f6d2c2afdc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+流程图
+
+![](https://upload-images.jianshu.io/upload_images/14923529-f4707d399173e59f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 另外还定义了增删查改等基础抽象方法，初始化了所有 DAO 对象
 上图已经注释的很清楚了，项目全部代码都放在 github 上了，欢迎查看。
